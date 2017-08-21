@@ -1,5 +1,5 @@
 # Instruções
-> Para que o app funcione, é preciso dar um **npm instal** ou um **yarn install** na pasta raiz do projeto. Ao executar os comandos citados acima, as dependências do app serão instaladas!
+> Para que o app funcione, é preciso dar um **npm install** ou um **yarn install** na pasta raiz do projeto. Ao executar os comandos citados acima, as dependências do app serão instaladas!
 Após o término do comando, basta executar outro comando para rodar o app, que é o **react-native run-android**.
 
 ## Curso
