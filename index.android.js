@@ -8,20 +8,6 @@ import CenaContatos from './src/components/CenaContatos';
 import CenaEmpresas from './src/components/CenaEmpresas';
 import CenaServicos from './src/components/CenaServicos';
 
-export default class CenaHome extends Component {
-
-  render() {
-
-    const navigation = this.props.navigation;
-
-    return (
-      <View style={{ backgroundColor: 'white' }}>
-        <CenaPrincipal navigation={navigation} />
-      </View >
-    );
-  }
-}
-
 //Preparei 2 opções para escolha de transação, uma no modelo de slider e a outra renderizando pelo centro
 //Slider: TransitionConfigurationSlider
 //Centro: TransitionConfigurationCenter
@@ -76,7 +62,7 @@ let TransitionConfigurationSlider = () => {
 };
 
 const app5 = StackNavigator({
-  Home: { screen: CenaHome },
+  Principal: { screen: CenaPrincipal },
   Clientes: { screen: CenaClientes },
   Contatos: { screen: CenaContatos },
   Empresas: { screen: CenaEmpresas },
